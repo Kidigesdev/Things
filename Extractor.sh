@@ -1,7 +1,6 @@
- #
- 
-# # ex - archive extractor
-# # usage: ex <file>
+# run the shell in the folder where the arcive has to be extracted.
+# the script will ask you for the archive.
+# zsh: you can make an alias for the script and run it from the shell directly.
 read -p "Please enter a file: " var
         if [ -f $var ] ; then
                 case $var in
